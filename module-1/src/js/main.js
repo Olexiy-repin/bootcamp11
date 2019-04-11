@@ -186,7 +186,7 @@
 //   alert('Ошибка ввода');
 // }
 
-// TASK NUMBER 13
+// HOMEWORK
 // const adminLogin = 'admin';
 // const adminPassword = 'm4ngo1zh4ackz0r';
 //

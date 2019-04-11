@@ -703,3 +703,57 @@
 // console.log(getUsersWithAge(users, 20, 30)); // [объект Ross Vazquez, объект Elma Head, объект Carey Barr]
 //
 // console.log(getUsersWithAge(users, 30, 40)); // [объект Moore Hensley, объект Sharlene Bush, объект Blackburn Dotson, объект Sheree Anthony]
+
+/**
+ * Получить общую сумму баланса (поле balance) всех пользователей
+ */
+// const getTotalBalance = arr => {
+//   const total = arr.reduce((acc, el) => acc += el.balance, 0);
+//
+//   return total;
+// };
+//
+// console.log(getTotalBalance(users)); // 20916
+
+
+/**
+ * Массив имен всех пользователей у которых есть друг с указанным именем
+ */
+// const getUsersByFriend = (arr, name) => {
+//   const newArr = arr.filter(el => el.friends.includes(name)).map(el => el.name);
+//
+//   return newArr;
+// };
+//
+// console.log(getUsersByFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
+// console.log(getUsersByFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
+
+/*
+ ЗАДАНИЕ ПОВЫШЕННОЙ СЛОЖНОСТИ - ВЫПОЛНЯТЬ ПО ЖЕЛАНИЮ
+*/
+
+/**
+* Получить массив всех скиллов всех пользователей (поле skills), при этом не должно быть
+* повторяющихся скиллов и они должны быть отсортированы в алфавитном порядке
+*/
+// const getAllUniqueSkills = arr => {
+//   const newArr = [...new Set(arr.map(el => el.skills)
+//   .reduce((acc, el) => acc.concat(el).sort(), []))];
+//   // const newArr1 = Array.from(newArr);
+//   return newArr;
+// };
+//
+// console.log(getAllUniqueSkills(users));
+// [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
+
+/**
+* Массив имен (поле name) людей, отсортированных в зависимости от количества их друзей (поле friends)
+*/
+// const getUserNamesSortedByFriendsCount = arr => {
+//   const newArr = arr.map( el => el).sort((a,b) => a.friends.length - b.friends.length).map(el => el.name);
+//
+//   return newArr;
+// };
+//
+// console.log(getUserNamesSortedByFriendsCount(users));
+// [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]

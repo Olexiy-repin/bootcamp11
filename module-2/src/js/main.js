@@ -402,7 +402,7 @@
 //   alert('Сожалеем, Вы не угадали!');
 // }
 //
-// TASK 19
+// HOMEWORK
 // const arr = [];
 // let i = 0;
 // let inputUser = prompt('Введите число');;
@@ -433,7 +433,7 @@
 //
 // alert(`Общая сумма чисел равна ${result}`);
 //
-// TASK 20
+// TASK 1.1
 // const passwords = ['qwerty', '111qwe', '123123', 'r4nd0mp4zzw0rd'];
 // let attempts = 3;
 // let inputUser = prompt('Введите свой пароль');
