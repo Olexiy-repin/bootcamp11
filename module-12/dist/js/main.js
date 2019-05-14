@@ -1,0 +1,1 @@
+"use strict";console.log([1,2,3,4,5].reduce((e,t)=>e+2*t,0));const myFunc=()=>{return{getName:()=>"Sergey",getLastName:()=>"Pupkin"}},myFuncMethods={getName:()=>"Sergey",getLastName:()=>"Pupkin"};console.log(myFuncMethods.getName());
