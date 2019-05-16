@@ -1,0 +1,9 @@
+.dashboard {
+  margin-bottom: 2rem;
+}
+
+.taskTitle {
+  font-size: 2rem;
+  text-align: center;
+  color: #3498db;
+}

@@ -1,0 +1,24 @@
+.history,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.history {
+  margin: 0 auto;
+  width: 70%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1)
+}
+
+.history thead tr th {
+  padding: 2rem;
+  background-color: #576574;
+  color: #fff;
+
+}
+
+.history tbody tr td {
+  padding: 2rem;
+}

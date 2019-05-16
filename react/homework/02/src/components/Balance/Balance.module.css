@@ -1,0 +1,21 @@
+.balance {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.balance span {
+  margin-right: 1rem;
+}
+
+.balance span>span {
+  color: green;
+}
+
+.balance span:nth-of-type(2)>span {
+  color: red;
+}
+
+.balance span:last-of-type {
+  margin-right: 0;
+}

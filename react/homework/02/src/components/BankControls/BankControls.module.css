@@ -1,0 +1,41 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  background-color: #2980b9;
+  margin-bottom: 1rem;
+}
+
+.controlsInput {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 16rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+  padding: 0 .5rem;
+  font-size: 1rem;
+}
+
+.controlsButton {
+  border: none;
+  outline: none;
+  background-color: #3498db;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  width: 8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controlsButton:hover {
+  transition: all .5s linear;
+  background-color: #2ecc71;
+}
+
+.controlsButton:last-of-type {
+  margin-right: 0;
+}
