@@ -1,0 +1,45 @@
+.pricingPlan {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.item {
+  flex-basis: 30%;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricingItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.pricingIcon {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.pricingItem h2 {
+  margin-bottom: 1rem;
+}
+
+.pricingItem p {
+  margin-bottom: .5rem;
+  line-height: 1.4;
+}
+
+.pricingButton {
+  width: 10rem;
+  padding: 1rem 0;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  font-size: 1rem;
+}
